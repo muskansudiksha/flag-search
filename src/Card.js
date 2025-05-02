@@ -3,7 +3,7 @@ const Card = (children)=>{
     //card to be a component which returns jsx of card UI, accepts card details.
     const {flag,name} = children;
     return (
-    <div 
+    <div
         style={{
             display: 'flex',
             flexDirection: 'column',
@@ -17,7 +17,8 @@ const Card = (children)=>{
             height: 100,          
         }} className="countryCard">
             <img style={{width:50,height:50}}src={flag} alt={`Flag of ${name}` }/>
-            <h5>{name}</h5>
+            <div><h5>{name}</h5></div>
+            
     </div>
 )}
 
