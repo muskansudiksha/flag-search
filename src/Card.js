@@ -15,7 +15,7 @@ const Card = (children)=>{
             padding: '10px',
             width:100,
             height: 100,          
-        }} className="">
+        }} className="countryCard">
             <img style={{width:50,height:50}}src={flag} alt={`Flag of ${name}` }/>
             <h5>{name}</h5>
     </div>
